@@ -1,0 +1,15 @@
+
+body {
+  background-color: #FFEBCD;
+}
+
+h1 {
+  color:  darkslateblue;
+  text-align: center;
+}
+a {
+    color:brown;
+}
+header {
+    background-image: url("1uzdevums.png");
+}
