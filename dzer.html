@@ -9,7 +9,7 @@ function maksa(){
        if(dz[i].checked)
       	teksts=dz[i].value;
 	}
-       document.getElementById().innerHTML=teksts;
+       document.getElementById("rezultāts").innerHTML=teksts;
  }   
 </script>
 <p>Izvēlies dzērienu:</p>
@@ -21,6 +21,7 @@ function maksa(){
   <input type="radio" id="kakao" name="drink" value="3.20">
   <label for="kakao">kakao</label><br><br>
   <input type="button" id="poga" value="jāmaksā" onclick="maksa()">
+  <p id="rezultāts"></p>
 </form> 
 </body>
 </html>
