@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 .saturs {
     text-align: center;
     padding-top: 100px;
