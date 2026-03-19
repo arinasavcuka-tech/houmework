@@ -1,15 +1,31 @@
 
-body {
-  background-color: greenyellow;
-}
 
-h1 {
-  color:  darkslateblue;
-  text-align: center;
+
+h2 {
+  color:  darkblue;
+  font-family: "Times New Roman", cursive;
 }
 a {
     color:brown;
 }
-header {
+
+.nosaukums {
+    color: lightcoral;
+}
+.saturs {
+    text-align: center;
+    padding-top: 100px;
     background-image: url("1uzdevums.png");
+
+}
+.atstarpe {
+    text-align: bottom;
+    padding: 150px;
+}
+.bgimg {
+   
+
+  background-image: url("images/4uzdevums.png");
+  background-size:cover;
+  min-height:100%;
 }
