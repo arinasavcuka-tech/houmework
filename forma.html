@@ -24,13 +24,13 @@
         <div>
             <input value="X" name="reiz" onclick="rez.value=sk1.value*sk2.value" type="button">
         </div>
-        <div><input type="button" name="sask" value="+" onclick="rez.value=sk1.value+sk2.value">
+        <div><input type="button" name="sask" value="+" onclick="onclick="let a = parseFloat(document.getElementById('sk1').value);
+                    let b =parseFloat(document.getElementById('sk2').value);
+                            document.getElementsByName('rez').value= a+b;">
         </div>
         <div><input type="button" name="atn" value="-" onclick="rez.value=sk1.value-sk2.value">
         </div>
-        <div><input type="button" name="dal" value="/" onclick="let a = parseFloat(document.getElementById('sk1').value);
-                    let b =parseFloat(document.getElementById('sk2').value);
-                            document.getElementsByName('rez').value= a+b;">
+        <div><input type="button" name="dal" value="/" onclick="rez.value=sk1.value/sk2.value">
         </div>
         <div>2.skaitlis<input type="text" name="sk2"> 
         <hr>
