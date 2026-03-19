@@ -1,0 +1,86 @@
+
+.saturs {
+    text-align: center;
+    padding-top: 100px;
+
+}
+.atstarpe {
+    text-align: bottom;
+    padding-bottom: 450px;
+    color: darkblue;
+    
+}
+.bgimg {
+   
+  background-image: url("images/datorika.jpg");
+  background-size:cover;
+  min-height:100%;
+  opacity: 0.5;
+  }
+.sākums {  color:  darkblue;
+               font-weight: bold;
+               text-align: center;
+               padding-top: 100px;
+}
+h2 {
+    text-align: center;
+}
+.p {
+    text-align: center;
+    font-weight: bold;
+}
+.pirmābilde {
+    vertical-align:middle;
+    
+}
+.center {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top:20px;
+    width:20%;
+        
+}
+.right {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: auto;
+    width:40%;  
+}
+.paskaidrojums {
+    font-size: 12px;
+    padding-top: 10px;
+}
+.ievads {
+    padding-top: 40px;
+}
+li {
+    padding-top: 20px;
+}
+.otrais {
+    color:#284C4D;
+    font-weight: bold;
+    padding-top: 80px;
+}
+.otrāatstarpe {
+    color:#284C4D;
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.poster {display: inline-block;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top:20px;
+    width:80%;
+    height:80%;
+    margin-bottom:20px;
+}
+.virsraksts {
+    
+    color:#284C4D;
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 20px;
+    font-size: 25px;
+}

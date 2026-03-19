@@ -5,112 +5,154 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <link rel="stylesheet" href="newcss.css">
+        <link rel="stylesheet" href="mansStils.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
         <title>Mans portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style> body{background-color:beige}</style>
+        <style> body{background-color:lightgoldenrodyellow}</style>
     </head>
     
     <body>
-            <div class="w3-top">
-      <a href="#menu" class="w3-button w3-block w3-black">MENUuuuu</a>
-    </div>
-    <div class="w3-container" id="menu">
-  <div class="w3-content" style="max-width:700px">
-
-    </div>
-         <div class="w3-top">
-      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
-    </div>
-           </div>
-         <div class="w3-top">
-      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
-    </div>
-            </div>
-         <div class="w3-top">
-      <a href="#about" class="w3-button w3-block w3-black">Attēla apstrāde</a>
-    </div>
-        <div class="w3-container" id="about">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
-    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
-      <p>Chef, Coffeeist and Owner: Liam Brown</p>
-    </div>
-
-  </div>
-        <div class="w3-container" id="attēlu apstrāde">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
-    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
-      <p>Chef, Coffeeist and Owner: Liam Brown</p>
-    </div>
-
-  </div>
-
-                <div class="w3-top">
- 
-        <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">Attēlu apstrāde <i class="fa fa-caret-down"></i></button>     
+  <div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Sākums</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-button w3-padding-large w3-hide-small" >Attēlu apstrāde <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="images/1uzdevums.png" class="w3-bar-item w3-button">Rastragrafika</a>
-        <a href="images/logo_2uzdevums.PNG" class="w3-bar-item w3-button">Vektorgrafika</a>
+        <a href="#Rastragrafika" class="w3-bar-item w3-button">Rastragrafika</a>
+        <a href="#Vektorgrafika" class="w3-bar-item w3-button">Vektorgrafika</a>
       </div>
     </div>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Teksta apstrāde</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Video</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
-  </div>
-                    
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Sākums</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Attēlu apstrāde</a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+    <a href="#tekstapstrāde" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Teksta apstrāde</a>
+    <a href="#grupudarbs" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Grupu darbs</a>
+    <a href="#video" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Video</a>
+    <a href="#izklājlapas" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Izklājlapas</a>
+    <a href="otrais.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Individuālā tēma</a>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+
   </div>
 
-<header class=" w3-display-container w3-grayscale-min" id="home">
-   <div class="w3-center">
-    <span class="w3-text-white" style="font-size:90px"><br>Paveiktie uzdevumi</span>
-  </div>
+
+<header class="bgimg">
+    <div class="saturs">
+        <h2><span class="sākums">Mans datorikas portfolio</span></h2>
+    </div>
+    <div class="atstarpe">
+        <p class="p">Gribu Jūs iepazīstināt ar pirmajā semestrī paveiktajiem darbiem datorikas stundās</p>
+    </div>
 
 </header>
+<div class="main">
+    <h2>Attēlu apstrāde</h2>
+    <p class="p">Šajā mācību kursā esmu iepazinusi divus attēlu apstrādes veidus:</p>
+    <div class="attēluapstrāde">
+        <ol>
+        <li> Rastragrafika</li>
+    <div id="Rastragrafika">
     
-                  <div> <h2>Paveiktie darbi</h2> </div>
-        <table>
-  <tr>
-    <th>Rastrgrafika GIMP</th>
-    <th><img src="images/1uzdevums.png" alt="GIMP attēls" style="float:right;width:200px;height:200px"></th>
-
-  </tr>
-  <tr>
-    <th><img src="images/logo_2uzdevums.png" alt="GIMP attēls" style="float:right;width:200px;height:200px"></th>
-    <th>Vektorgrafika Inkscape</th>
-   
-  </tr>
-  <tr>
-    <th>Grupu darbs Tinkercad</th>
-    <th><img src="images/3uzdevums.png" alt="Puzle" style="float:right;width:200px;height:200px"></th>
     
-    <tr>
-    <th><img src="images/4uzdevums.png" alt="Puzle" style="float:right;width:200px;height:200px"></th>
-    <th>Video montēšana, Power Point Presentation Animated slide</th>
-    </tr>
-   
-    <tr>
-    <th>Ms Word</th>
-  </tr>
-</table>
-        <div>
-        <a href="otrais.html">otrais.html</a>
+        <div id="rastragrafika">
+            <p class="p"> Stundās, kurās tika veltītas rastragrafikai, es uzzināju, kā strādāt ar GIMP (attēlu apstrādes programmu); uzzināju, kā var interesanti pārveidot attēlus, apvienojot tos ar tekstu vai pārvēršot gif animācijā.</p>
+        <div id="pirmābilde">
+            <img src="images/1uzdevums.png" alt="Gimp uzdevums" class="center" >
+            <img src="images/3uzdevums.gif" alt="gif animācija" class="right">
         </div>
+        </div>
+    </div>
+         
+        <li>Vektorgrafika</li>
+        <div id="Vektorgrafika">
+            <div id="vektorgrafika">
+            <p class="p"> Vektografikas apgūšanas procesā, iemācījos, kā darbojas Inkscape, bija iespēja pašai izdomāt un realizēt uzņēmuma logo.</p>
+        <div id="pirmābilde">
+            <img src="images/logo_2uzdevums.png" alt="Logo uzdevums" class="center" >
+            
+        </div>
+            <div class="ievads">
+                <p class="p">Paskaidrojums, kāpēc es izveidoju tieši šādu logo:</p>
+            </div>
+            <div>
+                <p class="paskaidrojums">Uzņēmums “SUNAILS” nodarbojas ar nagu lakas, nagu pārklājumu ražošanu, augsti vērtējot draudzību videi. Šī iemesla dēļ galvenie objekti šī uzņēmuma logo ir rokas un nagu lakas pudelīte, kas reizē ir arī saule. Nagu lakas pudelīte ir dzeltenā un zaļā krāsā. Abas krāsas simbolizē ekoloģiju, dabu, akcentējot šī uzņēmuma vērtības. Logo ir attēlotas rokas, kuras tur sauli-nagu lakas pudelīti. Tas saistāms ar uzmanīgu attieksmi pret dabu, kā arī simbolizē procesu, kam šīs nagu lakas tiek izmantotas. Nagu lakas pudelītes vidū ir rakstīts uzņēmuma nosaukums, kas ir kā īpašs nagu lakas zīmols, apliecinot tādā veidā uzņēmuma profesionalitāti un līmeni.</p>
+             
+            </div>
+            </div>
+    
+
+    </div>
+    </div>
+    <div class="main">
+        <br>
+        <h2>Tekstapstrāde ar lietotni Word</h2>
+        <div id="tekstapstrāde">
+            <div class="teksts">
+                <p class="p">Darbojoties ar lietotni MS Word, tika apgūtas teksta formatēšanas prasmes - stilu pielietojums, numerācija, satura rādītāju izveide, formulu rakstīšana.</P>
+                <div class="pirmābilde">
+                <img src="images/Ekrānuzņēmums.jpg" alt="Word" class="center" >   
+                <img src="images/Ekrānuzņēmums2.jpg" alt="Word komanda Mailings" class="center">
+                </div>
+                </div>
+            </div>
+    </div>
+ 
+    <div class="main">
+        <br>
+        <h2>Grupu darbs - 3D modelēšana</h2>
+        <p class="p"> Grupu darba "Reklāmas suvenīrs" posmi:</p>
+        <div id="grupudarbs">
+            <ol>
+                <li>3D kuba gabaliņa skaldņu izveide, izmantojot Tinkercad</li>
+                <div id="detaļa">
+                    <img src="images/3uzdevums.png" alt="Kuba daļas" class="center" >
+                    <img src="images/Izstrāde.jpg" alt="Detaļu izstrāde" class="center" >
+                    
+                </div>
+                <li>Detaļu apvienošana</li>
+                <div id="kubs">
+                    <img src="images/Detaļa.jpg" alt="Kuba detaļas" class="center" >
+                </div>
+                <li>Suvenīra izdrukāšana un salikšana</li>
+        </div>
+   
+        </div>
+    
+    <div class="main">
+        <br>
+        <h2>Video - klips par reklāmsuvenīra izveidi</h2>
+        <p class="p"> Tika filmēta grupas uzdevuma izpilde, un šis materiāls ar video montāžas programmu Kapwing tika apvienots vienā video. Video ir iekļauti gan skaņas efekti, gan fragmentu pāreja, gan teksts un vēl papildus PowerPoint lietotnē izveidotais animētais slaids ar reklāmu. Pirms video taisīšanas tika uzrakstīts scenārijs.</p>
+        <div>
+            <img src="images/Scenārijs.jpg" alt="Video scenārijs" class="center" >
+            <br>
+        </div>
+            <h2>Video</h2>
+            <div id="video" style="text-align: center;">
+            <iframe width="600" height="350" src="https://www.youtube.com/embed/yyAKYTHPQXE" allowfullscreen >
+            </iframe>
+        </div>
+    </div>
+    
+    <div class="main">
+        <br>
+        <h2>Izklājlapas</h2>
+        <p class="p">Darbojoties izklājlapu lietojumprogrammatūrā MS Excel, esmu apguvusi, skaitļošanas, funkciju rīkus, grafiskos līdzekļus un tabulas.</p>
+        <ol>
+            <li>Darbs ar lietotni MS Excel</li>
+                <img src="images/Excel.jpg" alt="Aprēķinu uzdevumi Excel" class="center" >
+            <li>Lejupielādējama datne</li>
+            <div id="izklājlapas">
+                <a href="files/MD_aprēķini_fails.xlsx" download>aprēķini.xlsx</a>
+            </div>
+        </ol>
+        
+        
+    
+
+        
+        
     </body>
 </html>
+
+
 
