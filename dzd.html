@@ -13,28 +13,46 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <h1>Gaidot dzimšanas dienu</h1>
         <hr>
         
+        
+             <script>
+                function dienas(){
+                    var gads=document.getElementById("gads").value;
+                    var menesis=document.getElementById("menesis").value;
+                    var diena=document.getElementById("diena").value;
+                    var sodien = new Date();
+                    var sogad=sodien.getFullYear();
+
+                var dzdiena = new Date(sogad, menesis - 1, diena);
+
+                if (dzdiena<sodien) {
+                    dzdiena = new Date(sogad + 1, menesis - 1, diena);
+                }
+                var starpiba=dzdiena-sodien;
+
+                document.getElementById("dienas").value=starpiba;
+                }
+            </script>
+        
+        
+        
         <form>
             <p>Ievadi pilnu datumu, kad Tev būs tuvākā dzimšanas diena</p>
             <br>
             <label for="gads">gads</label>
             <input type="text" id="gads">
-            <br>
+            <br><br>
             <label for="menesis">mēnesis</label>
             <input type="text" id="menesis">
-            <br>
+            <br><br>
             <label for="diena">diena</label>
             <input type="text" id="diena">
-            <br>
-            <input type="button" id="poga" value="Aprēķināt dienu skaitu līdz dzimšanas dienai" onclick="dienas();">
+            <br><br>
+            <input type="button" id="poga" value="Aprēķināt dienu skaitu līdz dzimšanas dienai" onclick="dienas()">
             <p>Līdz svētkiem atlikušas</p>
             <input type="text" id="dienas">
             <label for="dienas">dienas :))</label>
         </form> 
         
-        <script>
-            function dienas(){
-                let atbilde=""
-            }
-        </script>
+
     </body>
 </html>
