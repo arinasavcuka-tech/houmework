@@ -14,7 +14,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <hr>
         
         <form>
-            <label for="nosaukums">Ievadi pilnu datumu, kad Tev būs tuvākā dzimšanas diena</label>
+            <p>Ievadi pilnu datumu, kad Tev būs tuvākā dzimšanas diena</p>
             <br>
             <label for="gads">gads</label>
             <input type="text" id="gads">
@@ -24,7 +24,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
             <br>
             <label for="diena">diena</label>
             <input type="text" id="diena">
-            
-        </form>        
+            <br>
+            <input type="button" id="poga" value="Aprēķināt dienu skaitu līdz dzimšanas dienai" onclick="dienas();">
+            <p>Līdz svētkiem atlikušas</p>
+            <input type="text" id="dienas">
+            <label for="dienas">dienas :))</label>
+        </form> 
+        
+        <script>
+            function dienas(){
+                let atbilde=""
+            }
+        </script>
     </body>
 </html>
