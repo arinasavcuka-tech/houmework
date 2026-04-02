@@ -11,20 +11,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
     </head>
     <body>
         <h1>Informācijas daudzuma mērvienības</h1>
-    </body>
+    
     <form>
         <input type="text" id="GB">
         <label for="GB">GB=</label>
         <br><br>
-        <input type="button" value="Izteikt megabaitos" name="poga" onclick="rez.value=GB.value*1000">
+        <input value="Izteikt megabaitos" name="poga" onclick="document.getElementById('MB').value=document.getElementById('GB').value*1000" type="button">
         <input type="text" id="MB">
         <label for="MB">MB</label>
         <br><br>
-        <input type="button" value="Izteikt mibibaitos" name="poga" onclick="mibi">
+        <input value="Izteikt mibibaitos" name="poga" onclick="document.getElementById('MiB').value=document.getElementById('GB').value*953.67" type="button">
         <input type="text" id="MiB">
         <label for="MiB">MiB</label>
     </form>
-    <script>
-        
-    </script>
+</body>
 </html>
